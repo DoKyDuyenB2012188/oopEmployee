@@ -58,6 +58,8 @@ public:
 
 int main()
 {
+    Employee s("nguyen van b", 2400);
+    s.display();
     Manager s1 ("nguyen van a",3600,600);
     s1.display();
     return 0;
